@@ -1,4 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
+    // === Desktop Site Alert ===
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+        alert("For a better experience, please switch to Desktop Site mode in your browser menu.");
+    }
+
+document.addEventListener("DOMContentLoaded", function () {
     console.log("Fetching video list...");
 
     fetch("links.json")  // Ensure this file is inside the same directory as the HTML file
