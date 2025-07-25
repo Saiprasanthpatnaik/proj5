@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (isMobile) {
         alert("For a better experience, please switch to Desktop Site mode in your browser menu.");
     }
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     console.log("Fetching video list...");
